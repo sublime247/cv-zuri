@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+ padding-bottom: 100px;
+
+}
+
+h1{
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+    color: black;
+}
+
+h2{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 20;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    
+
+}
+
+.content,.content2,.content3{
+    display: flex;
+    justify-content: center;
+    margin: 40px 00px;
+    
+}
+.content{
+   
+
+}
+.one{
+    text-align: right;
+    margin-right: 20px;
+
+}
+.two{
+    text-align: left;
+    margin-left: 20px;
+    
+}
+.vertical-line{
+    border: 2px black solid;
+    margin-right: 20px ;
+    margin-left: 20px;
+}
+.imgu{
+   
+     display: flex;
+     justify-content: center;
+
+    
+}
+img{
+    width: 180px;
+    height: auto;
+    
+}
+.text{
+   
+    margin-top: 10px;
+ letter-spacing: 1.5px;
+ word-spacing: 3px;
+ flex-wrap: wrap;
+    
+}
+.sk{
+    text-align: end;
+    line-height: 25px;
+}
+.text2{
+  
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+ word-spacing: 3px;
+ line-height: 22px;
+ 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width:768px) {
+
+    body{
+       
+     padding-left: 30px;
+     padding-right: 30px;
+    }
+    h1{
+      
+        font-size: 30px;
+        
+    }
+    
+    h2{
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        font-weight: 20;
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+        
+    
+    }
+    .text{
+   
+        margin-top: 10px;
+     letter-spacing: 1px;
+     word-spacing: 2px;
+     padding-left: 5px;
+        
+    }
+    
+
+}
